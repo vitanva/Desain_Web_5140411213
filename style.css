@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	font-family:calibri, segoe ui', arial, tahoma, sans-serif;
+}
+
+body{
+	background-color:pink;
+}
+
+#wrapper{
+	width: 780px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#header{
+	background: url(images/10.png) repeat-x #555;
+	height:90px;
+	width:100%;
+	padding:5px;
+	margin:20px 0;
+	overflow:hidden;
+}
+
+#header img{width:167px; height:60px;}
+
+#menu-utama{
+	margin-top:3px;
+	list-style:none;
+}
+
+#menu-utama{
+	margin-top:3px;
+	list-style:none;
+}
+
+#menu-utama li{
+	float:left;
+	padding:8px 20px;
+	border-right:1px solid #555555;
+}
+
+#menu-utama li a{
+	color:#ffffff;
+	text-decoration:none;
+	font-size:20px;
+}
+
+#header form{
+	float:right;
+	margin-top:0px;
+	margin-right:10px
+}
+
+#header form input{
+	border:1px;
+	height:22px;
+	
+}
+
+#daftar-artikel{
+	width:470px;
+	float:left;
+}
+#daftar-artikel1{
+	width:800px;
+	float:center;
+}
+
+.artikel{
+	background:#E9DBA5;
+	padding:10px;
+	margin-bottom:20px;
+	overflow:hidden;
+}
+
+.artikel1{
+	background:#E9DBA5;
+	padding:10px;
+	margin-bottom:20px;
+	overflow:hidden;
+}
+.artikel1 img{
+	margin-right:30px;
+	margin-left:23px;
+	width:200px;
+	height:165px;
+}
+
+.artikel img{
+	float:left;
+	margin-right:10px;
+	width:200px;
+	height:165px;
+}
+
+.artikel b{
+	color:#616060;
+	background:#DDDDDD;
+	padding:3px;
+	font-size:12px;
+	font-weight:bold;
+	margin-right:10px;
+}
+
+.artikel p{
+	margin:10px 0;
+}
+
+.artikel a{
+	display:block;
+	text-align:right;
+	color:red;
+}
+
+#sidebar{
+	width:270px;
+	float:right;
+}
+
+#sidebar h2{
+	font-size:18px;
+	margin:10px 0;
+	
+}
+
+#sidebar p{
+	line-height:20px;
+	color:#636363;
+	
+}
+
+#sidebar ul li a{
+	color:#636363;
+	text-decoration:none;
+}
+
+#footer{
+	clear: both;
+	margin:20px 0;
+	text-align:center;
+	background-color:#E35C44;
+	padding:5px;
+	color:#000000;
+}
+
+
+.form_contact{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#myform{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:20px;
+}
+
+.full-width{
+	grid-column: 1/2;
+}
+
+.form_contact label{
+	display:block;
+}
+
+.form_contact p{
+	margin:0;
+}
+
+.form_contact input,textarea{
+	padding:0;
+}
+
+.form_contact button{
+	padding:1em;
+}
+
+button{
+	background: gold;
+	width:100%;
+	border:0;
+}
+
+button:hover, button:focus{
+	background:#E35C44;
+	outline:0;
+}
+
+input:focus, textarea:focus{
+	outline:3px solid #E35C44;
+}
